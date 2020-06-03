@@ -22,8 +22,8 @@
  * реализовать более динамический сайт с возможностью вывода статей и остальных данных из БД
  * посадка верстки на WordPress
  
- Результат работы проекта [Landing Page](http://mycome-back.zzz.com.ua/) <br>
-           Альтернативная ссылка [Landing Page](https://samokhindmitro.github.io/comeBack/) 
+ Результат работы проекта [ссылка](http://mycome-back.zzz.com.ua/) <br>
+           Альтернативная ссылка [альтернативная ссылка](https://samokhindmitro.github.io/comeBack/) 
  
  Бесплатный Хостинг сайта: [zzz.com.ua](http://zzz.com.ua),<br>
  Бесплатный Хостинг nodejs [Heroku.com](https://herokuapp.com/),<br>
