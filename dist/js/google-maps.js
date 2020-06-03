@@ -1,0 +1,1 @@
+var map;function initMap(){var e={lat:49.82485,lng:24.075303};map=new google.maps.Map(document.getElementById("map"),{center:e,zoom:17,mapTypeControl:!1,fullscreenControl:!1,streetViewControl:!1});new google.maps.Marker({position:e,title:"ComeBack",icon:"../img/header/header-logo.png",map:map})}

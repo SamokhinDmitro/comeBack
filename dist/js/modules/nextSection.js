@@ -1,0 +1,1 @@
+class Next{constructor(t){const e=this.btnNext=document.querySelector(t);e.addEventListener("click",this.goSection.bind(e))}goSection(){event.preventDefault();let t=function(t){let e=t.getBoundingClientRect();return{top:e.top+pageYOffset,left:e.left+pageXOffset}}(document.querySelector("section"));window.scrollTo({left:0,top:t.top,behavior:"smooth"})}}
