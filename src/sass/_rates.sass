@@ -1,0 +1,68 @@
+/*Стили страницы КАРТОЧКИ ТАРИФОВ*/
+.rates
+  &-header
+    height: 800px
+    &__item
+      height: 800px
+    &__wrap
+      padding-top: 740px
+.rate
+  //background: url("../img/rates/rate-slider/rate-slider-bg.jpg") 0 0 no-repeat
+  background: url("../img/section.bg.png") 0 0 no-repeat
+  background-size: cover
+  &-title
+    color: $text-color-dark
+  &-block
+    padding: 60px 40px 50px 40px
+    min-height: 585px
+    &__title
+      margin-bottom: 50px
+      font-size: 40px
+      font-weight: 700
+      letter-spacing: 2px
+      color: $text-color
+      text-align: center
+    &__list
+      margin-bottom: 25px
+      padding-left: 14px
+      font-size: 18px
+      font-weight: 700
+      line-height: 1.7
+      letter-spacing: 0.9px
+
+      list-style: none
+    &__item
+      position: relative
+      color: $text-color-link
+      &::before
+        position: absolute
+        display: block
+        content: ''
+        width: 9px
+        height: 9px
+        background: $text-color-link
+        top: 9px
+        left: -18px
+        border-radius: 50%
+      &_active
+        color: $text-color-light
+        &::before
+          background: $text-color-light
+
+
+    &__price
+      font-size: 26px
+      font-weight: 700
+      color: $active-color
+      letter-spacing: 0.26px
+  &-icons
+    margin-bottom: 30px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    font-size: 26px
+    &__item
+      &_active
+        color: $active-color
+
+/*END Стили страницы КАРТОЧКИ ТАРИФОВ*/

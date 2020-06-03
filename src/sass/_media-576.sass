@@ -1,0 +1,375 @@
+@media (max-width: 576px)
+  /*Mobile*/
+  .hidden-mobile
+    display: none
+
+  /*INTERFACE*/
+  section
+    padding: 45px 0
+
+  .section
+    &-title
+      margin-bottom: 45px
+      font-size: 25px
+      &::after
+        width: 77px
+        bottom: -5px
+  .button
+    &_down
+      width: 65px
+      height: 65px
+      font-size: 20px
+    &_up
+      padding: 10px 12px
+      font-size: 12px
+  .slide
+    &-block
+      &__button
+        bottom: -10px
+
+  /*Under-Link*/
+  .link
+    font-size: 12px
+    &_under
+      font-size: 12px
+
+  /*Form*/
+  .form
+    &__input
+      font-size: 15px
+      letter-spacing: 0.16px
+      max-width: 290px
+      &::placeholder
+        font-size: 14px
+    &__button
+      max-width: 290px
+      font-size: 17px
+      letter-spacing: 0.2px
+      &_spec
+        font-size: 17px
+
+  /*Timer*/
+  .timer
+    width: 200px
+    &-card
+      font-size: 30px
+      &__digit
+        top: 34%
+        right: -106%
+
+  /*END INTERFACE*/
+
+  /*HEADER*/
+  .header
+    //height: 389px
+    &-top
+      padding: 5px 0
+      background: transparent
+      &__wraps
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-nav
+      &__button
+        display: block
+
+    &-navigation
+      display: none
+      &__list
+        flex-direction: column
+        align-items: center
+        justify-content: space-around
+      &__item
+        width: 100%
+        margin-right: 0
+      &__link
+        display: block
+        padding: 8px
+        letter-spacing: 1.5px
+        font-size: 20px
+      &__close
+        display: block
+
+    &-slider
+      &__item
+        height: 389px
+      &__content
+        padding-top: 90px
+      &__subtitle
+        margin-bottom: 10px
+        font-size: 10px
+      &__title, .header__title
+        margin-bottom: 12px
+      &__descr
+        font-size: 12px
+      &__price
+        font-size: 18px
+      &__category
+        margin-bottom: 20px
+        font-size: 18px
+    &-down
+      &__button
+        left: 12px
+        bottom: -27px
+    /*Header for pages*/
+    &-pages
+      &__title
+        margin-top: 100px
+
+  /*END HEADER*/
+
+  /*SERVICES*/
+  .services
+    &-block
+      min-height: 258px
+      &:hover
+        .services
+          &-block
+            &__button
+              right: -15px
+      &__title
+        font-size: 18px
+      &__price
+        font-size: 17px
+      &__button
+        bottom: -10px
+  /*END SERVICES*/
+
+  /*FEATURES*/
+  .features
+    &-numbers
+      &__title
+        font-size: 70px
+      &__descr
+        font-size: 18px
+    &-block
+      margin-right: 10px
+      padding: 16px 58px 28px 58px
+      &__title
+        margin-bottom: 9px
+        font-size: 16px
+      &__descr
+        font-size: 10px
+
+  /*END FEATURES*/
+
+  /*FEEDBACK*/
+  .feedback
+    &::after
+      display: none
+    /*Feedback-Slider*/
+    &-block
+      margin: 0
+      padding: 2px 10px 20px 16px
+      box-shadow: 4px 6px 11px rgba(83, 83, 83, 0.16)
+      &__header
+        align-items: flex-start
+      &__avatar
+        margin-right: 9px
+        width: 93px
+        height: 93px
+        top: 0!important
+      &__author
+        font-size: 18px
+      &__title
+        font-size: 14px
+      &__content
+        padding: 0 25px 0 0
+      &__descr
+        text-align: justify
+        font-size: 12px
+  /*END FEEDBACK*/
+
+  /*PORTFOLIO*/
+  .portfolio
+    /*Category*/
+    &-category
+      margin-bottom: 18px
+      &__link
+        font-size: 16px
+
+    &-block
+      min-height: 258px
+      &:hover
+        .portfolio
+          &-block
+            &__button
+              right: -15px
+      &__title
+        font-size: 18px
+        width: 100%
+      &__price
+        padding: 15px 13px
+        font-size: 17px
+      &__button
+        bottom: -10px
+
+  /*END PORTFOLIO*/
+
+  /*EXAMPLE*/
+  .cocoen
+    height: 200px
+  /*END EXAMPLE*/
+
+  /*TEAM*/
+  .team
+    /*Slider*/
+    &-block
+      padding-bottom: 16px
+      box-shadow: 5px 9px 9px rgba(39, 39, 39, 0.09)
+      &__img
+        margin-bottom: 17px
+        height: 250px
+        object-fit: contain
+
+      &__content
+        letter-spacing: 0.9px
+        padding: 0 18px
+      &__title
+        color: $text-color-dark
+        font-size: 20px
+      &__descr
+        font-size: 18px
+  /*PROMO*/
+  .promo
+    &-header
+      margin-bottom: 30px
+    &-block
+      font-size: 28px
+      letter-spacing: 0.28px
+      &__number
+        font-size: 80px
+    /*Timer*/
+    &-clock
+      margin-top: 20px
+    &-content
+      &__title
+        font-size: 20px
+  /*END PROMO*/
+
+  /*FOOTER*/
+  .footer
+    &-logo
+      text-align: left
+    &-contacts
+      &__item
+        text-align: left
+        margin-bottom: 15px
+    &-title
+      text-align: left
+    &-social
+      justify-content: flex-start
+  /*END FOOTER*/
+
+  /*Стили страницы КАРТОЧКИ ТАРИФОВ*/
+  .rate
+    &-block
+      min-height: 470px
+      &__title
+        font-size: 32px
+  /*END Стили страницы КАРТОЧКИ ТАРИФОВ*/
+
+  /*PLAN*/
+  .plan
+    &::after
+      display: none
+  /*END PLAN*/
+
+  /*ARTICLE*/
+  .article
+    padding: 0
+    &-header
+      padding: 50px 0
+    &-block
+      &__img
+        height: 240px
+        &:nth-of-type(odd)
+          margin-bottom: 10px
+        &:last-of-type
+          margin-bottom: 0
+  /*END ARTICLE*/
+
+  /*Page Articles*/
+  .articles
+    &-block
+      margin: 10px 15px
+    &-services
+      &__block
+        min-height: 130px
+  /*END Page Articles*/
+
+  /*ROOMS*/
+  .rooms
+    &-block
+      &__img
+        height: 250px
+        object-fit: fill
+      &__title
+        font-size: 20px
+      &__descr
+        font-size: 18px
+  /*END ROOMS*/
+
+  /*NEWS*/
+  .news
+    &-category
+      display: block
+      &__item
+        margin-bottom: 10px
+        &:last-child
+          margin-bottom: 0
+      &__link
+        display: block
+        padding: 8px 30px
+        font-size: 14px
+        font-weight: 500
+        text-align: center
+    &-block
+      &__title
+        margin-bottom: 20px
+      &__descr
+        margin-bottom: 20px
+      &__img
+        height: 235px
+      &__link
+        font-size: 16px
+        &_under
+          font-size: 16px
+  /*END NEWS*/
+
+  /*POPUP-NAVIGATION*/
+  .popup
+    &-content
+      position: relative
+      padding: 70px 0 30px 0
+      &__close
+        position: absolute
+        top: 10%
+        right: 20%
+        display: block
+        width: 18px
+        height: 18px
+        background: url("../img/popup/close-btn.svg") 0 0 no-repeat
+        background-size: 100%
+        border: none
+        cursor: pointer
+    &-navigation
+      display: block
+      right: -1000px
+      transition: all 2s ease
+      &__active
+       right: 0
+       transition: all 1.5s ease
+
+      &__nav
+        display: block
+      &__phone
+        margin-bottom: 20px
+        text-align: center
+      &__social
+        justify-content: center
+/*END POPUP-NAVIGATION*/
+
+
+
+

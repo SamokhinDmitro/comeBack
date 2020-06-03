@@ -1,0 +1,74 @@
+/*EXAMPLE*/
+.example
+  position: relative
+  padding: 0
+  background: #ffffff
+  &-wrap
+    position: absolute
+    top: -100px
+    width: 100%
+    height: auto
+    z-index: 10
+  &-text
+    position: relative
+    display: inline-block
+    font-size: 40px
+    font-weight: 700
+    color: $text-color-light
+    letter-spacing: 2.37px
+    &__before
+      float: left
+    &__after
+      float: right
+    &::after
+      display: block
+      position: absolute
+      content: ''
+      left: 0
+      bottom: -20px
+      width: 100%
+      height: 4px
+      background: $active-color
+
+
+  &-button
+    &__prev
+      left: 25px
+    &__next
+      right: 25px
+.cocoen
+  height: 600px
+  img
+    height: 100%
+  &-drag
+    width: 4px
+    background: $active-color
+    &::before
+      margin: 0
+      width: 40px
+      height: 40px
+      left: 50%
+      top: 50%
+
+      transform: translateY(-50%) translateX(-50%)
+      background: $active-color
+      border-radius: 50%
+      border: none
+    &::after
+      cursor: pointer
+      display: block
+      position: absolute
+      //content: '\25C0 \25BA'
+      content: ''
+      //font-size: 14px
+      line-height: 1
+      //color: $text-color-light
+      background: url("../img/example/example-icon.png") no-repeat
+      background-size: 90%
+      width: 30px
+      height: 30px
+
+      left: 4px
+      top: 52%
+      transform: translateY(-52%) translateX(-50%)
+/*END EXAMPLE*/

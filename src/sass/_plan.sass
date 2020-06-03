@@ -1,0 +1,85 @@
+/*PLAN*/
+.plan
+  position: relative
+  background: #ffffff
+  background-size: cover
+  z-index: 5
+  &::after
+    display: block
+    position: absolute
+    content: ''
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background-image: url('../img/plan/plan-bg-all.png')
+    background-position: center bottom
+    background-repeat: no-repeat
+    background-size: 100%
+    z-index: -2
+  &-title
+    color: $text-color-dark
+  &-subtitle
+    margin-bottom: 40px
+    font-size: 25px
+    font-weight: 500
+    letter-spacing: 1.48px
+    color: $text-color-dark
+  &-content
+    position: relative
+    &__wrap
+      color: $text-color-dark
+      border-bottom: 2px solid $active-color
+    &__descr
+      letter-spacing: 0.9px
+      color: $text-color-plan
+      font-size: 18px
+      text-align: justify
+
+    &__button
+      position: absolute
+      top: -50px
+      left: 15%
+      transform: translateX(-15%)
+
+
+  &-price
+    margin-bottom: 25px
+    padding: 15px 0
+    color: $text-color-dark
+    border-top: 2px solid $active-color
+    border-bottom: 2px solid $active-color
+    vertical-align: middle
+    &__title
+      font-size: 25px
+      font-weight: 700
+      letter-spacing: 1.25px
+      line-height: 1.25
+    &__descr
+      padding-top: 5px
+      font-size: 20px
+      font-weight: 400
+      letter-spacing: 1px
+      line-height: 1.25
+
+    &__cost
+      display: block
+      font-size: 25px
+      font-weight: 700
+      letter-spacing: 1.25px
+      line-height: 1.25
+  &-slider
+    &__item
+      position: relative
+      margin: 0 10px
+      min-height: 425px
+      border-radius: 10px
+    &__img
+      border-radius: 10px
+      position: absolute
+      display: block
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+/*END PLAN*/

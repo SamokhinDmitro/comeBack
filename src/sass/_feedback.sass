@@ -1,0 +1,59 @@
+/*FEEDBACK*/
+.feedback
+  position: relative
+  //background: url('../img/feedback/feedback-bg.jpg') 0 0 no-repeat
+  background: url("../img/section.bg.png") 0 0 no-repeat
+  background-size: cover
+  z-index: 5
+
+  &-title
+    color: $text-color-dark
+
+  /*Feedback-Slider*/
+  &-slider
+    position: relative
+
+  &-block
+    margin: 10px 15px 0 15px
+    width: 555px!important
+    box-shadow: -5px 5px 11px rgba(83, 83, 83, 0.16)
+    border-radius: 10px
+    background: #ffffff
+    padding: 0 22px 26px 22px
+
+    &__header
+      display: flex
+      align-items: center
+      margin-bottom: 16px
+
+    &__avatar
+      display: block
+      position: relative
+      top: -7px!important
+      left: 0
+      margin-right: 17px
+      width: 176px
+      height: 176px
+      border-radius: 100%
+      object-fit: cover
+
+    &__info
+      color: $text-color-dark
+
+    &__author
+      display: block
+      padding-top: 15px
+      margin-bottom: 10px
+      font-size: 26px
+    &__title
+      display: block
+      font-size: 21px
+      font-weight: 500
+
+    &__content
+      padding: 0 10px
+    &__descr
+      margin-bottom: 12px
+      color: $text-color-descr
+      font-size: 18px
+/*END FEEDBACK*/
